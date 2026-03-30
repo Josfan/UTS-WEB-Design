@@ -1,0 +1,576 @@
+html {
+    scroll-behavior: smooth;
+}
+.all{
+    background-color: #5E3228;
+    min-height: 100vh;
+    padding: 30px 0;
+}
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #F6EDE6;
+    overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: #5E3228;
+}
+#menu {
+    scroll-margin-top: 120px;
+}
+#merch {
+    scroll-margin-top: 120px;
+}
+#reserve {
+    scroll-margin-top: 120px;
+}
+#home {
+    scroll-margin-top: 120px;
+}
+.header{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+.center{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.dalam{
+    margin: 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    padding: 30px 20px 20px;
+    background-color: #5E3228;
+    border-radius: 50px;
+    width: 100%;
+    max-width: 1100px;
+    box-shadow: 0 4px 0 #F6EDE6;
+}
+.logo {
+    font-family: "Libre Caslon Text", serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #F6EDE6;
+}
+.nav{
+    display: flex;
+    gap: 30px;
+}
+.nav a {
+    text-decoration: none;
+    color: #F6EDE6;
+    font-size: 15px;
+    transition: color 0.8s ease, font-weight 0.8s ease, text-shadow 0.8s ease, font-size 0.8s ease, transform 0.8s ease;
+}
+.nav a:hover {
+    color: #F6EDE6;
+    font-weight: bold;
+    text-shadow: 0 0 5px #F6EDE6;
+    font-size: 18px;
+    font-family: "Libre Caslon Text", serif;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.bold {
+  font-weight: 800;
+}
+h1{
+    font-weight: 400;
+    font-size: 40px;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 0;
+}
+p{
+    width: 100%;
+    max-width: 420px;
+    line-height: 20px;
+    font-size: small;
+    margin-top: 10px;
+}
+.banner img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+.button-container button{
+    background-color: #F6EDE6;
+    color: #5E3228;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 1.3pc;
+    box-shadow: 0 4px 0 #49231B;
+    cursor: pointer
+}
+.button-container button:hover{
+    background-color: #f4ece5;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 0 #49231B, 0 0 15px rgba(246, 237, 230, 0.6);
+}
+.pilih{
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    background-color: #f4ece5;
+}
+.pilah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5px;
+    margin-top: 90px;
+    background-color: #5E3228;
+    border-radius: 15px;
+    width: 300px;
+    justify-self: center;
+}
+.menu-1{
+    color: #F6EDE6;
+    font-family: "Yeseva One", serif;
+    font-size: 25px;
+    font-weight: regular;
+}
+.mena-menu{
+    display: flex;
+    margin: 0 -30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    font-family: "Caveat Brush", cursive;
+    text-align: center;
+    width: 82%;
+}
+.card{
+    background-color: #5E3228;
+    border-radius: 20px;
+    min-height: 280px; /* biar semua sama tinggi */
+    width: 250px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card-s{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 calc(33.333% - 30px);
+    gap: 20px;
+    margin-top: 20px;
+}
+.fotoo{
+    width: 200px;
+}
+.border1{
+    margin-top: 30px;
+    background-color: #ffd8de;
+    border-radius: 20px;
+    padding: 10px;
+    width: 230px;
+    box-shadow: inset 0 -6px 12px rgba(117, 104, 104, 0.3);
+}
+.tulisan{
+    text-align: center;
+    font-size: 15px;
+    width: 230px;
+}
+.tuliss{
+   position: absolute;
+    top: 20px;          /* jarak dari atas */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 550;
+    color: #F6EDE6;
+}
+.pink{
+    background-color: #ffd8de;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    width: 250px;
+    height: 80px;
+    box-shadow: inset 0 -4px 1px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.paraf{
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    width: 250px;
+    font-family: "nunito", sans-serif;
+    color: #5E3228;
+}
+.kopi2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.kopi2 h1 {
+    max-width: none;   
+    width: auto;
+    white-space: nowrap; 
+}
+.tulish{
+    font-size: 10px;
+    font-weight: bold;
+    color: #F6EDE6;
+    margin-top: 20px;
+}
+.sakuralatte{
+    width: 400px;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    text-align: left;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.desc, .desc1 {
+    flex: 1;
+    max-width: 300px;
+}
+.tulis{
+    width: 100%;
+    max-width: 250px;
+    font-weight: 200;
+}
+.card-f{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 calc(33.333% - 40px);
+    justify-content: center;
+    gap: 20px;
+    margin: 0 -30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 250px;
+}
+.card1 {
+    background-color: #F6E1DF;
+    border-radius: 25px;
+    width: 250px;
+    height: 250px; /* fix jadi kotak */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fot{
+    width: 160px;
+    height: auto;
+    object-fit: contain;
+}
+.fo{
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+}
+.mena-menu1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.kopi3 {
+    display: flex;
+    justify-content: space-between; /* bukaan center */
+    align-items: center;
+    gap: 30px; /* kurangi gap */
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #F6EDE6;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 6px 0 #5E3228;
+    margin-bottom: 100px;
+}
+.merch{
+    width: 400px;
+    margin-right: 50px;
+}
+.pra{
+    max-width: 300px;
+    width: 100%;
+    color: #5E3228;
+}
+h2{
+    font-size: 30px;
+    font-weight: 900;
+    max-width: none;   
+    width: 240px;
+    font-family: "Inter", sans-serif;
+    color: #5E3228;
+
+    /* white-space: nowrap;  biar dia bisa lurus aja */
+}
+.desc4{
+    background-color: #5E3228;
+    color: #F6EDE6;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 0 #3e211a;
+}
+
+.desc4:hover {
+    transform: translateY(-2px);
+}
+.footer {
+    background-color: #5E3228;
+    color: #F6EDE6;
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: space-between; /* biar 3 kolom rata */
+    align-items: flex-start;
+    padding: 80px 150px;
+}
+.follow, .customer, .location {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 🔥 ini kuncinya */
+}
+.footer-title{
+    font-size: 28px;
+    font-family: "Yeseva One", serif;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-right: 70px;
+}
+.footer-title-location{
+    font-size: 30px;
+    font-weight: regular;
+    font-family: "Yeseva One", serif;
+    margin-bottom: 30px;
+    margin-right: 70px;
+}
+.footer-title-follow{
+    font-size: 30px;
+    font-weight: regular;
+    font-family: "Yeseva One", serif;
+    margin-bottom: 30px;
+}
+
+.footer-img{
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+}
+.footer-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.customer-p p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 300px;
+    text-align: left;
+    margin: 5px 0;
+}
+.location-p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 200px;
+    text-align: left;
+}
+.open p{
+    width: 700px;
+}
+.customer-p p,
+.location-p {
+    text-align: left;
+    margin: 5px 0;
+}
+.footer-1 {
+    text-align: center;
+    background-color: #502A22;
+    padding: 50px 0;
+    margin-bottom: -80px;
+    color: #F6EDE6;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+}
+@media (max-width: 768px){
+    .banner {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    .text {
+        align-items: center;
+    }
+    .banner img {
+        width: 80%;
+        height: auto;
+    }
+    h1 {
+        font-size: 28px;
+        width: 100%;
+    }
+    p {
+        width: 100%;
+        font-size: 14px;
+    }
+    .dalam {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .navbar{
+        padding: 5px 5px 20px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .nav {
+        flex-wrap: wrap;          
+        justify-content: center;  
+        gap: 15px;
+    }
+    .nav a {
+        font-size: 14px;
+    }
+    .logo {
+        text-align: center;
+    }
+    .desc{
+        align-items: center;
+        text-align: center;
+    }
+    .desc, .desc1 {
+        max-width: none;
+        width: 100%;
+    }
+    .kopi3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .merch {
+        width: 80%;
+        margin-right: 0;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 50px 20px;
+        gap: 40px;
+    }
+
+    .follow, .customer, .location {
+        width: 100%;
+        align-items: center;
+    }
+    .footer-title,
+    .footer-title-follow,
+    .footer-title-location {
+        margin-right: 0; 
+        text-align: center;
+        font-size: 24px;
+    }
+    .footer-icons {
+        justify-content: center;
+    }
+    .customer-p p,
+    .location-p {
+        text-align: center;
+        max-width: 200px;
+        width: 100%;
+    }
+    .kopi3 {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .pra {
+        width: 100%;
+        text-align: center;
+    }
+    .desc4 {
+        margin-top: 20px;
+    }
+    .kopi2 {
+        flex-direction: column; 
+        text-align: center;
+        gap: 20px;
+        padding: 0 20px;
+    }
+    .desc,
+    .desc1 {
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+    }
+    .tulis {
+        width: 100%;
+    }
+    .sakuralatte {
+        width: 100%;
+        max-width: 250px;
+    }
+    .kopi2 h1 {
+        white-space: normal; 
+        font-size: 24px;
+        text-align: center;
+    }
+    .mena-menu1{
+        flex-direction: column;
+        align-items: center;
+    }
+}
