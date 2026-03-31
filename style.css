@@ -442,6 +442,12 @@ h2{
     font-family: "Inter", sans-serif;
     font-size: 30px;
 }
+.footer-ai {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #F6EDE6;
+    font-family: "Inter", sans-serif;
+}
 @media (max-width: 768px){
     .banner {
         flex-direction: column;
